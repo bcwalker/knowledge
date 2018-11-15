@@ -29,6 +29,11 @@ git reset --hard HEAD^
 第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
 第二步是用gitcommit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
 
+
+//撤销操作
 git checkout -- readme.txt 可以丢弃工作区的修改
 git reset HEAD readme.txt 可以丢弃暂存区的修改
 
+删除操作
+git rm test.txt
+git commit -m "remove test.txt"
