@@ -37,3 +37,25 @@ git reset HEAD readme.txt 可以丢弃暂存区的修改
 删除操作
 git rm test.txt
 git commit -m "remove test.txt"
+git checkout -- test.txt -> 误删用版本库内的版本替换工作区的版本
+
+//关联远程仓库
+git remote add origin git@github.com:****/knowledge.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
